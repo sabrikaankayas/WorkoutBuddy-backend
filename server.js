@@ -13,7 +13,7 @@ const app = express()
 app.use(express.json())
 
 app.use(cors(
-    {origin: ["http://localhost:4000", "https://tustracker.onrender.com/"]
+    {origin: ["http://localhost:4000", "https://tustracker.onrender.com"]
 }))
 
 app.use((req, res, next) => {
